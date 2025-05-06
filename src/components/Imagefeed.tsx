@@ -19,8 +19,8 @@ function Imagefeed() {
     try {
       const imageURL = URL.createObjectURL(file);
       setImages(imageURL);
-    } catch (error: any) {
-      console.log(error.message);
+    } catch (error) {
+      alert("Image not accepted");
     }
   };
 

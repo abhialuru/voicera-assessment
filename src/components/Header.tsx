@@ -1,9 +1,7 @@
 "use client";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import React, { useState } from "react";
-import Webcamfeed from "./Webcamfeed";
+import { useState } from "react";
 import Imagefeed from "./Imagefeed";
+import Webcamfeed from "./Webcamfeed";
 
 function Header() {
   const [DetectType, setDetectType] = useState("Webcam");

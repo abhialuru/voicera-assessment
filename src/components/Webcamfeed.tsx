@@ -19,8 +19,8 @@ function Webcamfeed() {
         videoRef.current.srcObject = stream;
         streamref.current = stream;
       }
-    } catch (error: any) {
-      console.log(error.message);
+    } catch (error) {
+      alert("There is a problem starting the webcam");
     }
   };
 
